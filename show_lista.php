@@ -10,7 +10,7 @@
 	echo "<ul>";
 		foreach($lista_arquivos as $arquivo){
 			if ($arquivo != "arquivos/ignore.txt") {
-				echo "<li>".substr($arquivo,9)."</li><br/>"; //o substring retira o "arquivos/" q fica antes do nome
+				echo "<li>".substr($arquivo,9)."</li><br/>"; //o substring() retira o "arquivos/" q fica antes do nome
 			}
 		}
 	echo "</ul>";
