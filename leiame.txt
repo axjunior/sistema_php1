@@ -1,0 +1,9 @@
+#changelog
+
+- O arquivo show_lista.php contem um algoritmo de ordenação, onde eu uso o glob() 
+para pegar a lista de arquivos como array, para poder ordenar usando o sort(), com a chave
+SORT_STRING para ordenar em ordem alfabetica.
+
+- O arquivo show_lista_otiginal.php é o arquivo original antes das alterações.
+
+- não é necessário apagar o arquivo ignore.txt, mas se for apagar, vc pode remover o filto no arquivo show_lista.php.

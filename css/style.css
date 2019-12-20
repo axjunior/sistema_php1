@@ -1,0 +1,102 @@
+
+/* Nada precisa ser alterado aqui */
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+#cabecalho {
+	width: 100%;
+	height: 84px;
+	margin-bottom:4px;
+}
+#cabecalho_texto {
+	font: 20px;
+	margin: 0px 10px 4px;
+	color: darkblue;
+}
+#main_table {
+	width:100%; 
+	height:80%;
+}
+#main_table h3 {
+	margin: 4px;
+	color: darkblue;
+}
+#main_table td{
+	border: 4px solid darkblue;
+	height:80%;
+	width: 50%;
+}
+#main_table input{
+	margin: 4px;
+}
+#textbox {
+	border: 2px solid darkblue;
+	height:20px;
+	color:darkblue;
+}
+#main_table select {
+	margin: 4px;
+	color: darkblue;
+	border: 2px solid darkblue;
+}
+#main_table_button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 8px 16px;
+	margin: 4px;
+}
+#lista_trabalhos {
+	width: 99%;
+	height: 90%;
+	border:0px;
+}
+#codigo {
+	background: black;
+	color: green;
+}
+
+#popup {
+	display:none;
+	position:absolute;
+	top:25%;
+	left:35%;
+	margin-left:-150px;
+	margin-top:-100px;
+	width:700px;
+	height:500px;
+	border:2px solid darkblue;
+	background:white;
+	color: darkblue;
+	overflow:auto;
+}
+#popup_titulo {
+	border: 2px solid darkblue;
+	height:20px;
+	width: 98%;
+	padding: 5px;
+	font: 20px Arial darkblue;
+}
+#popup_corpo {
+	padding:5px;
+}	
+#popup_fechar {
+	width:20px;
+	height:20px;
+	float:right;
+	right:10px;
+	color:white;
+	text-align:center;
+	background:red;
+	cursor:default;
+}
+
+	
+	
+	
+	
+	
+	
+
